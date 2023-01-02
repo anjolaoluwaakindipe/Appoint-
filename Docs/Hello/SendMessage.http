@@ -1,0 +1,10 @@
+POST http://localhost:5161/hello/message/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Manny",
+    "age": 21
+}
+
+
+# GET http://localhost:5161/WeatherForecast

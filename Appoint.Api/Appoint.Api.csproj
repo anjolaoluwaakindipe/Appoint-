@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ErrorOr" Version="1.2.1" />
+    <PackageReference Include="mapster" Version="7.3.0" />
+    <PackageReference Include="mapster.DependencyInjection" Version="1.0.0" />
+    <PackageReference Include="mediatr" Version="11.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Appoint.Application\Appoint.Application.csproj" />
+    <ProjectReference Include="..\Appoint.Contracts\Appoint.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
